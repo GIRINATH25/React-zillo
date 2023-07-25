@@ -1,0 +1,139 @@
+.id{
+  background-color: #0418c8;
+  width: 100%;
+}
+.img-slider{
+    margin-top: 30px;
+    display: flex;
+    float: left;
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition-duration: 2s;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.img-slider img{
+    height: 400px;
+    width: 1200px;
+    border-radius: 20px;
+}
+@keyframes slide{
+    0% {
+      left: 0px;
+    }
+    15% {
+      left: 0px;
+    }
+    20% {
+      left: -1200px;
+    }
+    32% {
+      left: -1200px;
+    }
+    35% {
+      left: -2400px;
+    }
+    47% {
+      left: -2400px;
+    }
+    50% {
+      left: -3600px;
+    }
+    63% {
+      left: -3600px;
+    }
+    66% {
+      left: -4800px;
+    }
+    79% {
+      left: -4800px;
+    }
+    82% {
+      left: -6000px;
+    }
+    100% {
+      left: 0px;
+    }
+}
+.sec{
+  width: 1200px;
+  overflow: hidden;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+@media (max-width:500px){
+  .id{
+    width: 100%;
+  }
+  .img-slider{
+    margin-top: 30px;
+    display: flex;
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition-duration: 2s;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.img-slider img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+@keyframes slide{
+    0% {
+      left: 0px;
+    }
+    15% {
+      left: 0px;
+    }
+    20% {
+      left: -300px;
+    }
+    32% {
+      left: -300px;
+    }
+    35% {
+      left: -600px;
+    }
+    47% {
+      left: -600px;
+    }
+    50% {
+      left: -900px;
+    }
+    63% {
+      left: -900px;
+    }
+    66% {
+      left: -1200px;
+    }
+    79% {
+      left: -1200px;
+    }
+    82% {
+      left: -1500px;
+    }
+    100% {
+      left: 0px;
+    }
+}
+.sec{
+  width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+}

@@ -1,0 +1,73 @@
+.ComBox {
+    float:left;
+    background-color: #fff;
+    width: 200px;
+    height: 330px;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 65px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contai{
+    position: relative;
+    width: 100%;
+}  
+img{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+.ds b{
+    font-size: small;
+    margin-bottom: 0;
+}
+.ComBox:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.addToCart{
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:100px;
+    border:none;
+    font-size:1em;
+    position:relative;
+    background: #5B74FD;
+    cursor:pointer;
+    height:42px;
+    width:12em;
+    color:white;
+    font-weight: 500;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+}
+.addToCart:hover{
+    transform:scale(1.1);
+}
+.pretext{
+    color:#fff;
+    background:#0652DD;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Quicksand', sans-serif;
+}
+.done{
+    background:#be2edd;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    transition:transform 0.3s ease;
+  
+    transform:translate(-110%) skew(-40deg);
+}
+.posttext{
+    background:#be2edd;
+}

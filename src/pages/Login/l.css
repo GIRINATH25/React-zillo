@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.ComBo {
+    background-color: #fff;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 490px;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 30px;
+}
+.in{
+    padding-bottom: 20px;
+}
+.in input{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+}
+.btn{
+    background-color:  #00044b;
+    color: #fff;
+    font-size: 16px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+input[type="email"],input[type="password"],input[type="text"],textarea{
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width:500px){
+    .ComBo{
+        background-color: #fff;
+        margin: 30px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    }
+    .tittle{
+    text-align: center;
+}
+.in{
+    padding-bottom: 20px;
+}
+.in input{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.btn{
+    background-color:  #00044b;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+input[type="email"],input[type="password"],input[type="text"],textarea{
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+}
